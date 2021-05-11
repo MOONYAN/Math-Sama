@@ -1,4 +1,4 @@
-import { Vec, Mat, combine, span, transpose, compose, eigenvalues, eigenvector, pow, inverse, diagonalPow, fibonacciSequence } from '../fibonacci-sequence';
+import { Vec, Mat, combine, span, transpose, compose, eigenvalues, pow, diagonalPow, fibonacciSequence } from '../fibonacci-sequence';
 
 test("combine", () => {
     const x: Vec = [1, 3];
@@ -50,41 +50,12 @@ test('eigenvalues', () => {
     expect(lambdas).toEqual([2, -1]);
 })
 
-test('eigenvector:1', () => {
-    let x: Vec = eigenvector([
-        [1, 1],
-        [2, 0]
-    ],2)
-    expect(x).toEqual([2, 1]);
-})
-
-
-test('eigenvector:2', () => {
-    let x: Vec = eigenvector([
-        [1, 1],
-        [2, 0]
-    ],-1)
-    expect(x).toEqual([-1, 1]);
-})
-
-
 test("pow 0", () => {
     expect(pow(2, 0)).toEqual(1);
 })
 
 test("pow 3", () => {
     expect(pow(2, 3)).toEqual(8);
-})
-
-test("inverse", () => {
-    let AInverse = inverse([
-        [2, 1],
-        [-1, 1]
-    ])
-    expect(AInverse).toEqual([
-        [1 / 3, -1 / 3],
-        [1 / 3, 2 / 3]
-    ])
 })
 
 test("diagonalPow", () => {
