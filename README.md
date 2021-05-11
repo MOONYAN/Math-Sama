@@ -8,6 +8,7 @@
 ## Feature
 
 - Implement Newton's method
+- Implement Taylor series
 
 ## Run Test Suites
 
