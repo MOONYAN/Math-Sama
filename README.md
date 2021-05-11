@@ -9,6 +9,7 @@
 
 - Implement Newton's method
 - Implement Taylor series
+- Implement Fibonacci Sequence
 
 ## Run Test Suites
 
