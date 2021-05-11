@@ -1,25 +1,22 @@
-# Startup TS
+# Math Sama
 
-As a template for setup testcase.
+![](coverage/badge-branches.svg)
+![](coverage/badge-functions.svg)
+![](coverage/badge-lines.svg)
+![](coverage/badge-statements.svg)
 
 ## Feature
 
-- setup package.json
-- setup tsconfig.json
-- setup jest.config.json
-- setup circleci config.yml
-- setup testcase template
+- Implement Newton's method
+- Implement Taylor series
 
-## Run the startup
+## Run Test Suites
 
 ```
 yarn
 yarn test
 ```
 
-## Script
-```
-yarn init
-tsc --init
-yarn ts-jest config:init
-```
+## Aboult
+
+- LinkIn https://www.linkedin.com/in/owen-hong-469882165/

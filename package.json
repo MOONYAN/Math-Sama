@@ -1,8 +1,8 @@
 {
-  "name": "startup-ts",
+  "name": "Math-Sama",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/MOONYAN/startup-ts.git",
+  "repository": "https://github.com/MOONYAN/Math-Sama.git",
   "author": "MOONYAN",
   "license": "MIT",
   "scripts": {
